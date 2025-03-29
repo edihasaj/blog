@@ -6,19 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
+title:       Edi Hasaj
+author:      Edi Hasaj
 email:       ''
-description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
-facebook:    ''
+description: 'Software, AI and Thinking.'
+#baseurl:     '' # The subpath of your site, e.g. /blog
+url:         'https://edihasaj.com' # The base hostname & protocol for your site
+twitter:     'https://x.com/hasajedi'
+github:      'https://github.com/edihasaj'
+instagram:   'https://www.instagram.com/edihasaj/'
+facebook:    'https://www.facebook.com/hasajedi'
+linkedin:    'https://www.linkedin.com/in/edihasaj/'
 
 markdown:  kramdown
-permalink: pretty
-paginate:  10
+paginate:  30
 
 sass:
   style: compressed
@@ -26,9 +27,13 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-redirect-from
 
 include:
   - _pages
+  - posts
 
 exclude:
   - vendor
@@ -38,11 +43,56 @@ exclude:
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+permalink: /:categories/:title
+
+feed:
+  path: atom.xml
+
+#collections_dir: obsidian
+
+collections:
+  posts:
+    output: true
+    permalink: /:title
+
+  guide:
+    output: true
+    permalink: /:title
 
 # Pages path
 defaults:
   - scope:
+      path: ''
+    values:
+      layout: post
+
+  - scope:
+      path: 'obsidian/posts'
+    values:
+      permalink: posts/:title
+
+  - scope:
+      path: 'obsidian/guide'
+    values:
+      permalink: guide/:title
+
+  - scope:
+      path: 'obsidian*'
+    values:
+      permalink: /:basename
+
+  - scope:
+      path: 'posts'
+    values:
+      layout: post
+
+  - scope:
+      path: 'guide'
+    values:
+      layout: post
+
+  - scope:
       path: '_pages'
     values:
-      permalink: /:basename:output_ext
+      layout: page
+      permalink: /:basename

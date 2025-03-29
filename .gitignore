@@ -4,3 +4,4 @@ _site
 _drafts
 .DS_Store
 .jekyll-metadata
+.obsidian/plugins/obsidian-mkdocs-publisher

@@ -11,4 +11,9 @@
       color: $color-brand;
     }
   }
+
+  ul.no-bullets li {
+    list-style: none;
+    padding-right: 10px;
+  }
 }

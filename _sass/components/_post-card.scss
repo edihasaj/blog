@@ -28,8 +28,16 @@
     }
   }
 
+  h4:&__title {
+    font-size: $font-size-h4 !important;
+    margin-bottom: 0 !important;
+  }
+
+
   &__excerpt {
-    margin-bottom: half($font-size-base);
+    p {
+      margin-bottom: $font-size-base;
+    }
   }
 
   &__date {
