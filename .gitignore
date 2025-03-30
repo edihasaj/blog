@@ -4,4 +4,5 @@ _site
 _drafts
 .DS_Store
 .jekyll-metadata
-.obsidian/plugins/obsidian-mkdocs-publisher
+node_modules
+yarn-error.log

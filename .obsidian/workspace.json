@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "877b769c403b3f1d",
+    "id": "590ec9e0cd17e57c",
     "type": "split",
     "children": [
       {
-        "id": "df7748148d8148bb",
+        "id": "af6b0095c3e5c297",
         "type": "tabs",
         "children": [
           {
-            "id": "f3626d4a71cb72c2",
+            "id": "a59dc3c817a2acd1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/posts/_posts/2025-03-29-how-i-created-and-migrated-an-erp.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-03-29-how-i-created-and-migrated-an-erp"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b3ec32029dfef4f4",
+    "id": "4b7f3315848cbe39",
     "type": "split",
     "children": [
       {
-        "id": "6cd55904081241b3",
+        "id": "1b10d2ac68d7bf67",
         "type": "tabs",
         "children": [
           {
-            "id": "977a20fba73f0efc",
+            "id": "ef41671e3b33b2e2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "266b7e555c2f74c3",
+            "id": "0a8afb6f89f9eafa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "2c485e411bc62f29",
+            "id": "1318e2c20ec2e5a2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 300
   },
   "right": {
-    "id": "5bb6227d952b6aec",
+    "id": "961395d5f5a6e162",
     "type": "split",
     "children": [
       {
-        "id": "aca32bfcdce4cd01",
+        "id": "064b6e286d3d431f",
         "type": "tabs",
         "children": [
           {
-            "id": "10e01216ece9d11b",
+            "id": "2b1922580d7a2988",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/_posts/2025-03-29-how-i-created-and-migrated-an-erp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-03-29-how-i-created-and-migrated-an-erp"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "ba953e12a86b0c93",
+            "id": "8cd79e11686fc5e8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/_posts/2025-03-29-how-i-created-and-migrated-an-erp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-03-29-how-i-created-and-migrated-an-erp"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "71f978ee57b18ab3",
+            "id": "f142a18c1c0726d0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "4af6b3fb989393b8",
+            "id": "70148919187b134f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/_posts/2025-03-29-how-i-created-and-migrated-an-erp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-29-how-i-created-and-migrated-an-erp"
+              "title": "Outline"
             }
           }
         ]
@@ -168,18 +161,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "977a20fba73f0efc",
-  "lastOpenFiles": [
-    "_site/docs/CNAME",
-    "_site/docs",
-    "docs/CNAME",
-    "docs",
-    "images/rss.png",
-    "images/header-edi.jpg",
-    "obsidian/_pages/about.md",
-    "obsidian/posts/_posts/2025-03-29-how-i-created-and-migrated-an-erp.md",
-    "obsidian/guide/_posts/2023-03-02-ruby-bang-methods.md",
-    "_site/tag/migration.html",
-    "_site/tag/erp.html"
-  ]
+  "active": "a59dc3c817a2acd1",
+  "lastOpenFiles": []
 }
