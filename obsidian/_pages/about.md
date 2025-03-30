@@ -6,11 +6,10 @@ filename: _pages/about
 rss: false
 date: 2025-03-29 23:17:00 +0100
 ---
-# Welcome to My Digital World 🌐
 
 Hello, I'm Edi Hasaj 👋 – a passionate software engineer, systems architect, and engineering lead with over a decade of experience in crafting digital innovations. My journey through the tech realm has allowed me to dive deep into a myriad of areas, transforming ideas into impactful solutions.
 
-## What I Do
+#### What I Do
 
 I specialize in turning complex challenges into elegant solutions. Over the years, I've had the privilege of working on projects spanning:
 
@@ -35,11 +34,11 @@ I specialize in turning complex challenges into elegant solutions. Over the year
 - 🌐 **IoT Integrations** – Connecting devices to create smarter environments.
     
 
-## My Journey
+#### My Journey
 
 From my early days coding in various languages to leading diverse, dynamic teams, I've always believed in the power of technology to drive change. Whether steering contract projects or leading full-time innovation teams, every step has been about pushing boundaries and redefining what’s possible.
 
-## What Drives Me
+#### What Drives Me
 
 - **Innovation:** I thrive on the challenge of exploring new ideas and technologies.
     
