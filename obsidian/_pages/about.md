@@ -1,7 +1,7 @@
 ---
 share: true
 title: About
-image: /images/pages/about2.jpg
+image: /images/pages/about3.jpg
 filename: _pages/about
 rss: false
 date: 2025-03-29 23:17:00 +0100
