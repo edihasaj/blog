@@ -11,4 +11,4 @@ tags:
 excerpt:
 ---
 
-Enterprise Resource Planning.
+WIP.
