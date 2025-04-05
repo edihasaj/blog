@@ -2,7 +2,7 @@
 share: true
 layout: post
 title: "The Engineer's Guide to ERP Migration: How We Left Dynamics NAV Behind"
-date: 2025-03-12 16:00:00 -0300
+date: 2025-04-05 10:21:00 -0300
 filename: essay/_posts/2025-03-29-the-engineers-guide-to-erp-migraition-how-we-left-navision-behind
 tags:
   - programming
