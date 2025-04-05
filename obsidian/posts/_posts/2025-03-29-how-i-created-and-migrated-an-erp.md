@@ -13,8 +13,6 @@ tags:
 excerpt: When Ur&Penn decided to leave Microsoft Dynamics NAV after 14 years, most called us "ambitious" for building our own ERP from scratch. As the lead engineer responsible for this migration, I designed a hybrid architecture that eliminated the limitations of off-the-shelf solutions while preserving years of business-critical data. This is the untold technical story of how we successfully migrated a complex retail operation serving the Nordic region to a custom ERP system—without disrupting daily operations. I'll share the architecture decisions, migration strategies, and unexpected challenges that shaped our journey away from NAV toward a solution perfectly tailored to our unique retail needs.
 image: /images/pages/city-enterprise.jpg
 ---
-# The Engineer's Guide to ERP Migration: How We Left Dynamics NAV Behind
-
 ## Introduction
 
 Dynamics NAV, also known as Navision, is a robust ERP (Enterprise Resource Planning) software backed by Microsoft. **Ur&Penn** had been using Dynamics NAV for 14 years, where it became deeply ingrained in their daily operations—from Product and WMS to customer interactions via different channels like POS, E-Commerce, Self-Checkout, and more. **Ur&Penn** is one of the largest retailers in the Nordics, particularly in Sweden, exemplifying innovation and success in applying technology to solve problems and improve employee efficiency.
