@@ -41,8 +41,6 @@ The entire system was designed for serverless deployment from the ground up, all
 
 While I acknowledge NAV's strengths in reliability and stability once configured, its flaws became most apparent during data migration. The unusual database table structure, lacking defined constraints between table key connections, offers flexibility for adding records but creates challenges for maintaining state and relationships during data insertion. The absence of foreign key constraints caused numerous issues as we encountered deleted data referenced in other tables. After 14 years of data accumulation, Ur&Penn had adapted to this approach, but we couldn't import records where foreign key connections were missing. This represents one of NAV's most significant limitations, though it may seem inconsequential to non-technical users once initially configured (despite occasionally affecting business operations).
 
-#### [DIAGRAM TO BE ADDED HERE]
-
 ---
 
 ## Migration Strategy & Implementation
