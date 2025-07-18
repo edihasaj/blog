@@ -3,7 +3,7 @@ share: true
 layout: post
 title: "Blogging's AI Evolution: Why Human Stories Matter More Than Ever"
 date: 2025-07-18
-filename: essay/_posts/2025-07-18-blogging-s-ai-evolution
+filename: essay/_posts/2025-07-18-blogging-s-ai-evolution.jpg
 tags:
   - Blogging
   - AI
