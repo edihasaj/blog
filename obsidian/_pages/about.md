@@ -40,10 +40,10 @@ Here are some of the products I've built:
     <img src="/images/projects/dialektai.png" alt="Dialekt AI">
     <span><strong>Dialekt AI</strong> – AI chat for your database</span>
   </a>
-  <a href="https://short.applifyer.com/0v5" target="_blank" class="c-about-apps__item">
-    <img src="/images/projects/teleprompt-ios.png" alt="Teleprompt iOS">
-    <span><strong>Teleprompt Overlay</strong> – Teleprompter app for <a href="https://short.applifyer.com/0v5">iOS</a> & <a href="https://short.applifyer.com/lyb">Android</a></span>
-  </a>
+  <div class="c-about-apps__item">
+    <img src="/images/projects/teleprompt-ios.png" alt="Teleprompt">
+    <span><strong>Teleprompt Overlay</strong> – Teleprompter app (<a href="https://short.applifyer.com/0v5" target="_blank">iOS</a> & <a href="https://short.applifyer.com/lyb" target="_blank">Android</a>)</span>
+  </div>
   <a href="https://pricepromoengine.com" target="_blank" class="c-about-apps__item">
     <img src="/images/projects/pricepromo.png" alt="Price Promo Engine">
     <span><strong>Price Promo Engine</strong> – Price & promotion management</span>
@@ -57,7 +57,7 @@ Here are some of the products I've built:
     <span><strong>XK Business</strong> – Business platform</span>
   </a>
 </div>
-    
+
 
 #### My Journey
 
@@ -66,15 +66,15 @@ From my early days coding in various languages to leading diverse, dynamic teams
 #### What Drives Me
 
 - **Innovation:** I thrive on the challenge of exploring new ideas and technologies.
-    
+
 - **Collaboration:** Building and nurturing high-performing teams is at the heart of my approach.
-    
+
 - **Excellence:** Quality code and thoughtful design are non-negotiable in my projects.
-    
+
 - **Impact:** I aim to develop solutions that not only solve problems but also improve lives.
-    
+
 
 Join me as I share insights, project stories, and the occasional behind-the-scenes peek into the evolving world of technology. Together, let's build the future—one line of code at a time. 🚀
 
-Cheers,  
+Cheers,
 Edi Hasaj 👨‍💻
