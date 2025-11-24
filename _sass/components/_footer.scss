@@ -20,3 +20,116 @@
     }
   }
 }
+
+/*------------------------------------*\
+  Components > Projects
+\*------------------------------------*/
+
+.c-projects {
+  padding-bottom: $base-spacing-unit;
+  margin-bottom: $base-spacing-unit * 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+  &__title {
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $color-gray;
+    margin-bottom: $base-spacing-unit * 0.75;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $base-spacing-unit * 0.5;
+
+    @include mq($from: tablet) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mq($from: desktop) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  &__item {
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: $base-spacing-unit * 0.5;
+      padding: $base-spacing-unit * 0.5;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+      }
+    }
+  }
+
+  &__logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  &__name {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: $color-text;
+    white-space: nowrap;
+  }
+}
+
+/*------------------------------------*\
+  Components > About Apps
+\*------------------------------------*/
+
+.c-about-apps {
+  display: flex;
+  flex-direction: column;
+  gap: $base-spacing-unit * 0.25;
+  margin: $base-spacing-unit * 0.5 0;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: $base-spacing-unit * 0.5;
+    padding: $base-spacing-unit * 0.4;
+    border-radius: 6px;
+    text-decoration: none;
+    color: $color-text;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+      text-decoration: none;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    span {
+      font-size: 0.85rem;
+
+      strong {
+        color: $color-text;
+      }
+
+      a {
+        color: $color-brand;
+      }
+    }
+  }
+}
