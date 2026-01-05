@@ -3,8 +3,30 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name='description' content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} - Software, AI & insights to help you build on the internet{% endif %}</title>
+  <meta name='description' content="{% if page.url == '/' %}I'm the CEO of Applifyer – building agentic and traditional software internet businesses. Writing about building digital products, AI integrations, and lessons learned from over a decade of software engineering.{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | prepend: site.baseurl }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }}{% else %}{{ site.title }} - Software, AI & insights{% endif %}">
+  <meta property="og:description" content="{% if page.url == '/' %}I'm the CEO of Applifyer – building agentic and traditional software internet businesses. Writing about building digital products, AI integrations, and lessons learned from over a decade of software engineering.{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ '/images/header-edi.jpg' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }}{% else %}{{ site.title }} - Software, AI & insights{% endif %}">
+  <meta name="twitter:description" content="{% if page.url == '/' %}I'm the CEO of Applifyer – building agentic and traditional software internet businesses. Writing about building digital products, AI integrations, and lessons learned from over a decade of software engineering.{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ '/images/header-edi.jpg' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:site" content="@edihasaj">
+  <meta name="twitter:creator" content="@edihasaj">
+
   <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}'
   href="{{ '/atom.xml' | prepend: site.baseurl | prepend: site.url }}">

@@ -19,6 +19,48 @@
       position: relative;
     }
   }
+
+  &__find-me {
+    text-align: center;
+    font-size: 0.95rem;
+    color: $color-text;
+    padding-top: $base-spacing-unit;
+    margin-bottom: $base-spacing-unit;
+  }
+
+  &__social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $base-spacing-unit;
+    margin-bottom: $base-spacing-unit * 1.5;
+  }
+
+  &__social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: $color-text;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+    font-size: 0.85rem;
+    color: $color-gray;
+    margin: 0;
+  }
 }
 
 /*------------------------------------*\
@@ -26,6 +68,7 @@
 \*------------------------------------*/
 
 .c-projects {
+  padding-top: 0;
   padding-bottom: $base-spacing-unit;
   margin-bottom: $base-spacing-unit * 0.5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -36,6 +79,8 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: $color-gray;
+    padding-top: 0;
+    margin-top: 0;
     margin-bottom: $base-spacing-unit * 0.75;
   }
 
