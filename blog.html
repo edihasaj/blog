@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    {% assign posts_list = site.posts | where_exp: "post", "post.categories contains 'posts'" %}
+    {% for post in posts_list %}
+      {% include post-card.liquid %}
+    {% endfor %}
+  </div>
+</div>
